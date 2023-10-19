@@ -2,7 +2,7 @@ create_sample_data <- function(folder, output1, output2) {
 
   # Create sample files for FaaSr demo and stores in an S3 bucket
   #
-  # The function uses the default S3 bucket name, configured under LoggingServer in the FaaSr JSON describing
+  # The function uses the default S3 bucket name, configured in the FaaSr JSON
   # folder: name of the folder where the sample data is to be stored
   # output1, output2: names of the sample files to be created 
   
@@ -28,6 +28,6 @@ create_sample_data <- function(folder, output1, output2) {
 
   # Print a log message
   # 
-  log_msg <- paste0('Function create_sample_data finished; outputs written to folder ', folder, ' in My_S3_Bucket defined in the JSON configuration')
+  log_msg <- paste0('Function create_sample_data finished; outputs written to folder ', folder, ' in default S3 bucket')
   faasr_log(log_msg)
 }	
