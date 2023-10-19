@@ -1,4 +1,4 @@
-sum_data <- function(folder, input1, input2, output) {
+compute_sum <- function(folder, input1, input2, output) {
 
   # Download two input files from bucket, generate a sum of their contents, and write back to bucket
 
