@@ -28,6 +28,6 @@ compute_sum <- function(folder, input1, input2, output) {
 
   # Print a log message
   # 
-  log_msg <- paste0('Function sum_data finished; output written to ', folder, '/', output, ' in default S3 bucket')
+  log_msg <- paste0('Function compute_sum finished; output written to ', folder, '/', output, ' in default S3 bucket')
   faasr_log(log_msg)
 }	
